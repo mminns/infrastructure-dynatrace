@@ -2,6 +2,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     kotlin("jvm") version "1.3.31"
+    id("com.atlassian.performance.tools.gradle-release").version("0.5.0")
 }
 
 group = "com.atlassian.performance.tools"

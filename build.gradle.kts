@@ -14,7 +14,7 @@ repositories {
 
 dependencies {
     api("com.atlassian.performance.tools:infrastructure:[4.12.0,5.0.0)")
-    api("com.atlassian.performance.tools:ssh:[2.3.0,3.0.0)")
+    api("com.atlassian.performance.tools:ssh:[2.2.0,3.0.0)")
 
     implementation(kotlin("stdlib-jdk8"))
 
